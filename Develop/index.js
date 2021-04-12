@@ -1,13 +1,82 @@
 // TODO: Include packages needed for this application
 
+const inquirer = require('inquirer');
+
 // TODO: Create an array of questions for user input
-const questions = [];
+
+const questions = [
+        {
+            type: 'input',
+            message: 'What is your github username?',
+            name: 'github',
+            // displays in Questions section
+        },
+        {
+            type: 'input',
+            message: 'What is your email address?',
+            name: 'email',
+            // displays in Questions section
+        },
+        {
+            type: 'input',
+            message: 'What is the title of your project?',
+            name: 'title',
+            // displays as title of README
+        },
+        {
+            type: 'input',
+            message: 'Please write a description of your project.',
+            name: 'description',
+            // displays in Description section
+        },
+        {
+            type: 'choose',
+            message: 'What kind of license should your project have?',
+            name: 'license',
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+            // (Use arrow keys): MIT, APACHE 2.0, GPL 3.0, BSD 3, None
+            // license badge displays at top 
+            // license notice displays in License section
+        },
+        {
+            type: 'input',
+            message: 'What command should be run to install dependencies?',
+            name: 'installation',
+            // (npm i)
+            // displays in Installation section
+        },
+        {
+            type: 'input',
+            message: 'What command should be run to run tests?',
+            name: 'tests',
+            // (npm tests)
+            // displays in the Tests section
+        },
+        {
+            type: 'input',
+            message: 'What does the user need to know about using the repo?',
+            name: 'usage',
+            // displays in the Usage section
+        },
+        {
+            type: 'input',
+            message: 'What does the user need to know about contributing to the repo?',
+            name: 'contributing',
+            // displays in the Contributing section
+        },
+    ];
+    
+
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then
+}
 
 // Function call to initialize app
 init();
