@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 
@@ -30,10 +32,10 @@ const questions = [
             // displays in Description section
         },
         {
-            type: 'choose',
+            type: 'list',
             message: 'What kind of license should your project have?',
             name: 'license',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+            choices: ['APACHE 2.0', 'BSD 3', 'Eclipse 1.0', 'MIT', 'Mozilla 2.0'],
             // (Use arrow keys): MIT, APACHE 2.0, GPL 3.0, BSD 3, None
             // license badge displays at top 
             // license notice displays in License section
@@ -70,13 +72,21 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {
+//     fs.writeFile(fileName, data, (err) =>
+//       err ? console.error(err) : console.log('Success!')
+//     );
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then
-}
+    .then((data) => {
+        console.log(data);
+        fs.writeFile("GoodReadMe.md", generateMarkdown(data), (err) =>
+        err ? console.error(err) : console.log("Success!")
+        )
+    })
+};
 
 // Function call to initialize app
 init();
