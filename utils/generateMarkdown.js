@@ -20,7 +20,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-  (license) => { 
+  function renderLicenseLink(license) { 
     if (data.license === "APACHE 2.0") {
       return `https://opensource.org/licenses/Apache-2.0`;
     } else if (data.license === "BSD 3") {
@@ -74,6 +74,7 @@ function generateMarkdown(data) {
 
   ## License
   ${data.license}
+  ${renderLicenseLink.license}
   ***
 
   <br/><br/>
