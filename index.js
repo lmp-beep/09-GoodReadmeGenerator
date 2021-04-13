@@ -83,7 +83,7 @@ function init() {
     .then((data) => {
         console.log(data);
         fs.writeFile("GoodReadMe.md", generateMarkdown(data), (err) =>
-        err ? console.error(err) : console.log("Success!")
+        err ? console.error(err) : console.log("Success!!")
         )
     })
 };

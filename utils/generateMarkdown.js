@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
-const choice = require("inquirer/lib/objects/choices");
+// const choice = require("inquirer/lib/objects/choices");
 
 function renderLicenseBadge(license) {
   if (choice.license === "APACHE 2.0") {
