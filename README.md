@@ -10,7 +10,7 @@
 
 
 ## Description
-  This is a command-line application that runs with Node.js to dynamically generate a README file. The contents of the README file will contain info provided by the user in the following categories: Project Title, Project Description, License, Installation, Tests, Usage, Contributing, and Questions.
+  This is a command-line application that runs with Node.js to dynamically generate a README.md file. The contents of the README.md file will contain info provided by the user in the following categories: Project Title, Project Description, License, Installation, Tests, Usage, Contributing, and Questions.
   ***
 
   <br/><br/>
@@ -25,7 +25,8 @@
 
   ## License
   Copyright © Lisa Pessin 2021  
-  This application is covered under the MIT License. For more information, visit https://opensource.org/licenses/MIT.
+  This application is covered under the MIT License.  
+  For more information, visit https://opensource.org/licenses/MIT.
 
   ***
 
