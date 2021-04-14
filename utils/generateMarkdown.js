@@ -62,10 +62,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   
-
   # ${data.title}  
-
-  <br/><br/>
 
   ${renderLicenseBadge(data.license)}
   

@@ -1,4 +1,13 @@
-# 09 README Generator
+<h1 align="center">README.md Generator </h1>
+<h2 align="center">Using Node.js </h2>    
+
+<br/><br/>
+
+<p align="center">
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
+</p>
+
+
 
 ## Description
   This is a command-line application that runs with Node.js to dynamically generate a README file. The contents of the README file will contain info provided by the user in the following categories: Project Title, Project Description, License, Installation, Tests, Usage, Contributing, and Questions.
@@ -15,6 +24,8 @@
   <br/><br/>
 
   ## License
+  Copyright © Lisa Pessin 2021  
+  This application is covered under the MIT License. For more information, visit https://opensource.org/licenses/MIT.
 
   ***
 
