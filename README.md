@@ -51,5 +51,5 @@
   <br/><br/>
 
   ## Instructional Video
-
+  ![](HowToUseThisRepo.gif)
   ***
