@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
   } else if (license === "Eclipse 1.0") {
     return `<img src="https://img.shields.io/badge/License-EPL%201.0-red.svg"/>`;
   } else if (license === "MIT") {
-    return `<img src="https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT"/>`;
+    return `<img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>`;
   } else if (license === "Mozilla 2.0") {
     return `<img src="https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg"/>`;
   } 
