@@ -51,5 +51,5 @@
   <br/><br/>
 
   ## Instructional Video
-  ![Repo-Demo](https://user-images.githubusercontent.com/77073582/114947260-ca947f80-9e1a-11eb-9a63-d9f9e24030c6.gif)
+  
   ***
