@@ -51,5 +51,5 @@
   <br/><br/>
 
   ## Instructional Video
-  
+ ![](https://github.com/lmp-beep/09-GoodReadmeGenerator/blob/b7c71ed69918e63fbd761f878c765e6c8d6db7d5/instructional-video/Repo-Demo17MB.gif)
   ***
